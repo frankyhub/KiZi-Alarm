@@ -3,7 +3,7 @@
 # KiZi-Alarm
 Einfache Alarmanlage mit Bewegungsmelder, Buzzer und LEDs
 
-![Bild](pic/KiZi-Alam.png)
+![Bild](pic/KiZi-Alarm.png)
 
 ## Story
 
