@@ -7,7 +7,7 @@ Einfache Alarmanlage mit Bewegungsmelder, Buzzer und LEDs
 
 ## Story
 
-Diese Repo beschreibt den Aufbau einer Alarmanlage für das Kinderzimmer. Ein Bewegungsmelder überwacht das Kinderzimmer auf "Bewegung". Die grüne LED zeigt an, ob die Alarmanlage eingeschaltet ist. Erkennt der Bewegungsmelder eine Bewegung, blinkt eine rote LED und ein Buzzer ertönt. Für einen "stillen Alarm" kann der Buzzer deaktiviert werden. Am Bewegungsmelder sind zwei Potentiometer mit denen die Empfindlichkeit und die Alarmdauer eingestellt werden kann.
+Dieses Repo beschreibt den Aufbau einer Alarmanlage für das Kinderzimmer. Ein Bewegungsmelder überwacht das Kinderzimmer auf "Bewegung". Die grüne LED zeigt an, ob die Alarmanlage eingeschaltet ist. Erkennt der Bewegungsmelder eine Bewegung, blinkt eine rote LED und ein Buzzer ertönt. Für einen "stillen Alarm" kann der Buzzer deaktiviert werden. Am Bewegungsmelder sind zwei Potentiometer mit denen die Empfindlichkeit und die Alarmdauer eingestellt werden kann.
 Überwachte Bereiche sollten gekennzeichnet werden. Bringe einen Hinweis an geeigneter Stelle an.
 
 ## Hardware
