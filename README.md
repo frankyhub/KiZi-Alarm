@@ -5,15 +5,16 @@
 |[:skull:ISSUE](https://github.com/frankyhub/KiZi-Alarm/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/KiZi-Alarm/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/KiZi-Alarm/wiki)||
 |--|--|--|--|
 | | | | |
-|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2053-blue)|<a href="https://github.com/frankyhub/KiZi-Alarm/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/KiZi-Alarm)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/KiZi-Alarm)|<a href="https://github.com/frankyhub/KiZi-Alarm/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/KiZi-Alarm)|<a href="https://github.com/frankyhub/KiZi-Alarm/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/KiZi-Alarm)|
-|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/KiZi-Alarm)| <a href="https://github.com/frankyhub/KiZi-Alarm/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/KiZi-Alarm/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
-</div>
+<a href="https://github.com/frankyhub/KiZi-Alarm/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/KiZi-Alarm)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/KiZi-Alarm)|<a href="https://github.com/frankyhub/KiZi-Alarm/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/KiZi-Alarm)|<a href="https://github.com/frankyhub/KiZi-Alarm/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/KiZi-Alarm)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2053-blue)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/KiZi-Alarm)| <a href="https://github.com/frankyhub/KiZi-Alarm/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/KiZi-Alarm/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
 
+</div>
 
 # KiZi-Alarm
 Einfache Alarmanlage mit Bewegungsmelder, Buzzer und LEDs
 
-![Bild](pic/KiZi-Alarm.png)
+<img src="pic/KiZi-Alarm.png" width="500"> 
+<br> <br>
 
 ## Story
 
@@ -45,7 +46,9 @@ Der Aufbau und die Montage des KiZi-Alarm II ist in mehrere Schritte unterteilt.
 Zeichne und drucke 4 Platinen Füße für das ESP32-Shield, D=5mm x 5mm
 Klebe die Füße auf die Unterseite des Shields
 
-![Bild](pic/Spacer5mm.png)
+<img src="pic/Spacer5mm.png" width="500"> 
+<br> <br>
+
 
 ### Schritt 2: Verdrahtung und Lötarbeiten
 + Bestücke das NANO-Shield mit den Buchsenleisten
@@ -57,11 +60,14 @@ Klebe die Füße auf die Unterseite des Shields
 + Buzzer GND, GPIO7 über den Schalter S2
 + Spannungsversorgung mit Schalter S1
 
-![Bild](pic/nanoshieldkial.png)
+<img src="pic/Snanoshieldkial.png" width="500"> 
+<br> <br>
 
-![Bild](pic/Aufbauplan.png)
+<img src="pic/Aufbauplan.png" width="500"> 
+<br> <br>
 
-![Bild](pic/PIRHC-SR501.png)
+<img src="pic/PIRHC-SR501.png" width="500"> 
+<br> <br>
 
 Ist der Jumper ganz außen, wird das Ausgangssignal, nachdem eine Bewegung detektiert wurde, für eine gewisse Zeit aufrecht erhalten und danach auf jeden Fall wieder deaktiviert, auch wenn im Aktionsbereich des Bewegungsmelders noch eine Bewegung detektiert werden könnte. Nach einer gewissen Zeit wird das Ausgangssignal erneut erzeugt.
 Ist der Jumper ist leicht nach innen versetzt, bleibt das Ausgangssignal aktiv, so lange vom Bewegungsmelder eine Bewegung detektiert wird.
